@@ -289,7 +289,7 @@ def inter_query_relation_rs(token_positive_maps, ori_token_positive_maps, unique
     scales = {
         'small': areas < 1024, # 32*32
         'medium': (areas >= 1024) & (areas < 9216), # 96*96
-        'large': areas >= 4096,
+        'large': areas >= 9216,
         'global': torch.ones_like(areas, dtype=torch.bool)
     }
 
