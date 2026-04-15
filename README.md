@@ -1,15 +1,11 @@
 # RS-IOD：Scale-decoupled Topology Alignment with Pseudo-label Refinement for Remote Sensing Incremental Object Detection
 
-![STAR-IOD Framework](overall.png)
-*Figure 1: Overview of the proposed STAR-IOD. STAR-IOD preserves historical knowledge by aligning the decoder outputs of the student and teacher models via Subspace-decoupled Topology Distillation. In parallel, it incorporates a {Clustering-driven Pseudo-label Generator} to adaptively generate pseudo-labels for previously learned classes, thereby providing consistent and reliable supervision throughout the incremental learning process.*
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-This repository contains the official implementation of the paper:
-
-
 ## Abstract
 Remote sensing imagery typically arrives in the form of continuous data streams. Traditional detectors often forget previously learned categories when learning new ones; therefore, research on Remote Sensing Incremental Object Detection (RS-IOD) is of great significance. However, existing methods largely overlook the intra-class scale variations prevalent in remote sensing scenes, which undermines the effectiveness of knowledge transfer and old knowledge preservation. Moreover, RS-IOD also suffers from annotations missing, which cause the model to misclassify old-class instances as background. To address these challenges, we propose a novel framework, STAR-IOD. First, we introduce a Subspace-decoupled Topology Distillation (STD) module to transfer structural knowledge, explicitly aligning inter-class topological relationships and mitigating intra-class representation discrepancies induced by scale shifts. Furthermore, we introduce the Clustering-driven Pseudo-label Generator (CPG), a plug-and-play module that leverages K-Means clustering to dynamically identify class-specific thresholds, thereby guaranteeing an accurate distinction between true positive targets and background noise and alleviating the issue of missing annotations for old classes. We also constructed two Remote Sensing Incremental Object Detection datasets, DIOR-IOD and DOTA-IOD  to facilitate research on RS-IOD. Extensive experiments demonstrate that our method outperforms state-of-the-art approaches by 1.7% and 2.1% mAP on DIOR-IOD and DOTA-IOD, respectively, effectively alleviating catastrophic forgetting while preserving strong detection performance on both base and novel classes. 
 
+![STAR-IOD Framework](overall.png)
+*Figure 1: Overview of the proposed STAR-IOD. STAR-IOD preserves historical knowledge by aligning the decoder outputs of the student and teacher models via Subspace-decoupled Topology Distillation. In parallel, it incorporates a {Clustering-driven Pseudo-label Generator} to adaptively generate pseudo-labels for previously learned classes, thereby providing consistent and reliable supervision throughout the incremental learning process.*
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 🔨 Installation
 
 ### Requirements
