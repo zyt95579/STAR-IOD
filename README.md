@@ -22,8 +22,8 @@ Remote sensing imagery typically arrives in the form of continuous data streams.
 ## 🚀 Training
 1. **Download Dataset**: 
    Please download the DOTA-IOD and DIOR-IOD dataset from the following link:
-   - **DOTA-IOD Link**: [Baidu Netdisk](https://pan.baidu.com/s/17Z9wJgo-uXhlWOhPosCgkA) (Password: `iban`)
-   - **DIOR-IOD Link**: [[Baidu Netdisk](https://pan.baidu.com/s/1r9x3f7ry6RGSr00wEjBnKw) (Password: `f9v4`)
+   - **DOTA-IOD Link**: [[Baidu Netdisk](https://pan.baidu.com/s/17Z9wJgo-uXhlWOhPosCgkA) (Password: `iban`)]
+   - **DIOR-IOD Link**: [[Baidu Netdisk](https://pan.baidu.com/s/1r9x3f7ry6RGSr00wEjBnKw) (Password: `f9v4`)]
 ### Data Preparation
 ```text
 data/
