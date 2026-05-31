@@ -54,7 +54,16 @@ Our code is based on the project MMDetection. Thanks to the work [GCD](https://g
 
 ## 🖊️ Citation
 If you find this project useful in your research, please consider citing our paper:
-
-
+```
+@article{zhang2026star,
+  title={STAR-IOD: Scale-decoupled topology alignment with pseudo-label refinement for Remote Sensing Incremental Object Detection},
+  author={Zhang, Yaoteng and Zhou, Qing and Gao, Junyu and Wang, Qi},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={238},
+  pages={650--663},
+  year={2026},
+  publisher={Elsevier}
+}
+```
 Acknowledgement
 This project is based on MMDetection and GCD. Thanks for their excellent work.
